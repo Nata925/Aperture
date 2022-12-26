@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+margin:0;
+}
+header{
+  background-color: #181818;
+    padding: 24px 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav a{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+header nav li{
+    margin-left: 32px;
+    transition: 0.4s;
+}
+header nav li:hover{
+    transform: scale(1.2);
+}
+header nav li:first-of-type a{
+    font-size: 13px;
+
+}
+header nav li:first-of-type{
+   margin-right: 24px;
+}
+header nav li:last-of-type a{
+color: #000000;
+    border-radius: 14px;
+    background: #FFFFFF;
+    padding: 11px 20px;
+}
+/*main_banner*/
+.main_banner{
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
+    box-sizing: border-box;
+
+}
+.main_banner  .container{
+    max-width: 580px;
+    align-items: center;
+    margin: inherit;
+}
+.container-h4{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.container-h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.container-p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.second_banner{
+    background-image: url("../images/Rectangle.jpg");
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+
+}
+.second_banner_container{
+
+    align-items: center;
+    margin: inherit;
+    padding-top: 111px;
+    max-width: 1200px;
+}
+.second_banner_h3{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.second_banner_h6{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 7px;
+    padding-bottom: 82px;
+}
+.second_banner_img{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 82px;
+    height: 280px;
+    left: 8.33%;
+    right: 8.33%;
+    top: 120px;
+}
+.third_banner{
+    padding-top: 120px;
+    padding-bottom: 108px;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    background-image: url("../images/Rectangle.jpg");
+    display: flex;
+}
+.third_banner_container{
+    padding-left: 420px;
+    padding-right: 420px;
+    text-align: center;
+}
+.third_banner_container_h5{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+.third_banner_container_p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 22px;
+    padding-top: 15px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.button_read{
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 5px;
+    display: inline-flex;
+    align-items: center;
+}
+.button_read:before{
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
