@@ -140,10 +140,7 @@ color: #000000;
     padding-top: 120px;
     padding-bottom: 108px;
     justify-content: center;
-    align-items: flex-end;
-    box-sizing: border-box;
-    background-image: url("../images/Rectangle.jpg");
-    display: flex;
+   background: black;
 }
 .third_banner_container{
     padding-left: 420px;
