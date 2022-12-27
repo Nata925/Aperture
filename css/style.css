@@ -97,7 +97,7 @@ color: #000000;
     color: #C0C0C0;
 }
 .second_banner{
-    background-image: url("../images/Rectangle.jpg");
+    background: #000000;
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
