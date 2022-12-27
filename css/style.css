@@ -100,11 +100,8 @@ color: #000000;
     background: #000000;
     padding-top: 120px;
     padding-bottom: 120px;
-    display: flex;
     justify-content: center;
     align-items: flex-end;
-    box-sizing: border-box;
-
 }
 .second_banner_container{
 
