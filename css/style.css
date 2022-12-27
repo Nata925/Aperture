@@ -131,12 +131,9 @@ color: #000000;
 }
 .second_banner_img{
     display: flex;
-    margin: auto;
+    align-items: center;
     justify-content: space-between;
     padding-top: 82px;
-    height: 280px;
-    left: 8.33%;
-    right: 8.33%;
     top: 120px;
 }
 .third_banner{
