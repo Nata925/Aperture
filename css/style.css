@@ -104,10 +104,8 @@ color: #000000;
     align-items: flex-end;
 }
 .second_banner_container{
-
     align-items: center;
-    margin: inherit;
-    padding-top: 111px;
+    margin: auto;
     max-width: 1200px;
 }
 .second_banner_h3{
