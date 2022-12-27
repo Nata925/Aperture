@@ -143,8 +143,8 @@ color: #000000;
    background: black;
 }
 .third_banner_container{
-    padding-left: 420px;
-    padding-right: 420px;
+    margin: auto;
+    max-width: 600px;
     text-align: center;
 }
 .third_banner_container_h5{
